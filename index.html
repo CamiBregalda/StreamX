@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream X</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="">
+            <div class="navbar">
+                <button class="navbar-menu-btn">
+                    <span class="one"></span>
+                    <span class="two"></span>
+                    <span class="three"></span>
+                </button>
+
+
+                <a href="#" class="navbar-brand">
+                    <p class="logo">Stream<span class="stylized-logo">X</span></p>
+                </a>
+
+                <nav class="">
+                    <ul class="navbar-nav">
+                        <li><a href="#" class="navbar-link">Início</a></li>
+                        <li><a href="#movies" class="navbar-link">Filmes</a></li>
+                        <li><a href="#live" class="navbar-link indicator">LIVE</a></li>
+                    </ul>
+                </nav>
+
+                <div class="navbar-actions">
+                    <form action="#" class="navbar-form">
+                        <input type="text" id="search-input" name="search" placeholder="Buscar..." class="navbar-form-search">
+
+                        <button class="navbar-form-btn">
+                            <ion-icon name="search"></ion-icon>
+                        </button>
+
+                        <button class="navbar-form-close">
+                            <ion-icon name="close-circle-outline"></ion-icon>
+                        </button>
+                    </form>
+
+                    <button class="navbar-search-btn">
+                        <ion-icon name="search"></ion-icon>
+                    </button>
+
+                    <a href="#" class="navbar-signin">
+                        <span>Entrar</span>
+                        <ion-icon name="log-in"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section id="banner">
+                <div class="swiper">
+                    <div class="swiper-wrapper" id="banner-container">
+                        <!-- Slides adicionados via JavaScript -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <section id="movies">
+                <div class="filter-bar">
+                    <div class="filter-dropdowns">
+                        <select id="genres" name="genre">
+                            <!-- Genêros adicionados via JavaScript -->
+                        </select>
+
+                        <select name="year" id="years">
+                            <option value="all">Todos os anos</option>
+                            <option value="2025">2025</option>
+                            <option value="2020-2024">2020-2024</option>
+                            <option value="2010-2019">2010-2019</option>
+                            <option value="2000-2009">2000-2009</option>
+                            <option value="1980-1999">1980-1999</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-radios">
+                        <input type="radio" name="grade" id="popular" checked>
+                        <label for="popular">Mais Populares</label>
+
+                        <input type="radio" name="grade" id="now_playing">
+                        <label for="now_playing">Mais Recentes</label>
+
+                        <input type="radio" name="grade" id="top_rated">
+                        <label for="top_rated">Melhor Avaliados</label>
+                    </div>
+                </div>
+
+                <div id="movies-grid">
+                    <!-- Cards adicionados via JavaScript -->
+                </div>
+
+                <div class="pages">
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <p class="logo">Stream<span class="stylized-logo">X</span></p>
+                    <p class="slogan">Filmes e Séries, Cinema Online, Database de Filmes</p>
+
+                    <div class="social-link">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-tiktok"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <ul>
+                        <h4 class="link-heading">StreamX</h4>
+    
+                        <li class="link-item"><a href="#">Sobre</a></li>
+                        <li class="link-item"><a href="#">Meu Perfil</a></li>
+                        <li class="link-item"><a href="#">Planos Disponíveis</a></li>
+                        <li class="link-item"><a href="#">Contatos</a></li>
+                    </ul>
+    
+                    <ul>
+                        <h4 class="link-heading">Explorar</h4>
+                    
+                        <li class="link-item"><a href="#">TV Ao Vivo</a></li>
+                        <li class="link-item"><a href="#">Notícias Ao Vivo</a></li>
+                        <li class="link-item"><a href="#">Esportes Ao Vivo</a></li>
+                        <li class="link-item"><a href="#">Biblioteca de Streaming</a></li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="link-item"><a href="#">Séries de TV</a></li>
+                        <li class="link-item"><a href="#">Filmes</a></li>
+                        <li class="link-item"><a href="#">Infantil</a></li>
+                        <li class="link-item"><a href="#">Coleções</a></li>
+                    </ul>
+                    
+                    <ul>
+                        <h4 class="link-heading">Ajuda</h4>
+                    
+                        <li class="link-item"><a href="#">Conta e Cobrança</a></li>
+                        <li class="link-item"><a href="#">Planos e Preços</a></li>
+                        <li class="link-item"><a href="#">Dispositivos Compatíveis</a></li>
+                        <li class="link-item"><a href="#">Acessibilidade</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <div class="copyright">
+                    <p>© Copyright 2025 StreamX</p>
+                </div>
+
+                <div class="wrapper">
+                    <a href="#">Política de privacidade</a>
+                    <a href="#">Termos e condições</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <script type="module" src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
