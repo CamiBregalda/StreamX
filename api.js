@@ -1,4 +1,4 @@
-const TMDB_API_KEY = '';
+const TMDB_API_KEY = '9bbf7d734588f0a01ba0510c39e7e786';
 
 export async function getPopularMovies() {
     try {
