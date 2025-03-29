@@ -296,7 +296,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background: var(--oxford-blue);
-    padding: 2vw 3vw;
+    padding: 1vw 2vw;
     border-radius: 20px;
     margin-bottom: 30px;
 }
